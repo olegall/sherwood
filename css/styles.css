@@ -1,0 +1,960 @@
+.clear{
+    clear:both;
+}
+
+
+body{
+	background: #2d1b0c;
+	background: #2b1a0b;
+}
+
+
+/* Подключение нестандартных шрифтов */
+
+/*для IE*/
+@font-face {
+	font-family: Cuprum; /* имя шрифта для CSS правил */
+	src: url(../fonts/Cuprum-Regular.eot); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+/*для других браузеров*/
+@font-face {
+	font-family: Cuprum; /* имя шрифта для CSS правил */
+	src: url(../fonts/Cuprum-Regular.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
+
+.header{
+	position: relative;
+	//width: 1340px;
+	z-index: 1;
+	margin: 0 auto;
+	margin-bottom: -500px;
+	background: #552c11;
+	background: left bottom url(../images/big_vignette.png) no-repeat, #552c11;
+}
+
+
+
+
+.header ul{
+	position: absolute;
+	z-index: 5;
+	display: block;
+	right: 140px;
+	top: 100px;
+}
+.header ul li{
+	display: inline-block;
+	margin-left: 20px;
+}
+.header ul li a{
+	display: block;
+	height: 43px;
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	font-family: Cuprum;
+	vertical-align: bottom;
+	letter-spacing: 0px;
+}
+.header ul li .active{
+	background: bottom center url(../images/main_menu_vignette.png) no-repeat;
+}
+
+
+.short_vignette{
+	background: bottom center url(../images/vignette_short3.png) no-repeat;
+}
+
+.header > a{
+	position: absolute;
+	display: block;
+	/*z-index: 3;*/
+	z-index: 5;
+	display: block;
+	left: 145px;
+	top: 52px;
+}
+
+.top_shadow{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 4;
+	width: 100%;
+	height: 100%;
+	background: top url(../images/top_shadow.png) no-repeat, 
+				left url(../images/left_shadow.png) repeat-y,
+				right url(../images/right_shadow.png) repeat-y;
+}
+
+
+.logo_menu_shadows{
+	width: 988px;
+	height: 200px;
+	border: 1px dotted white;
+}
+
+.sss{
+	float: left;
+}
+.logo_menu_shadows > ul{
+	float: right;
+}
+
+
+
+
+
+.content_wrapper{
+	display: table-cell;
+	width: 1340px;
+	background:  
+	left url(../images/left_shadow.png) repeat-y,
+	right url(../images/right_shadow.png) repeat-y, #552c11;	
+}
+
+#content{
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+    width: 988px;
+	width: 1015px;
+	padding-top: 50px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 100px;
+	margin-top: 45px;
+	background: white;
+	margin-bottom: -40px;
+	/*background: #fdead2;*/
+	background: #fdf6ed;
+	box-shadow: 0 10px 20px black;
+	background: url(../images/bg_stripe3_more_darker.jpg) right;
+}
+
+
+
+#slider{
+	z-index: 2;
+	margin: 0 auto;
+	width: 1340px;
+	height: 881px;
+}
+
+
+
+
+.footer_wrap{
+	position: relative;
+	z-index: 1;
+	background: 800px bottom url(../images/big_vignette.png) no-repeat, #261000;
+}
+footer{
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 60px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	width: 989px;
+}
+
+footer > ul{
+	float: left;
+}
+
+footer > ul > li{
+	float: left;
+	margin-right: 50px;
+	
+}
+
+footer > ul > li > a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-family: Cuprum;
+}
+.footer_submenu{
+	margin-top: 10px;
+}
+.footer_submenu > li > a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+	margin-bottom: 2px;
+}
+
+
+footer p{
+	color: white;
+}
+
+footer p a{
+	color: white;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+footer p a:hover{
+	/*text-decoration: underline;*/
+}
+
+footer .contacts{
+	float: right;
+	margin-right: 45px;
+}
+
+.contacts span{
+	font-size: 26px;
+}
+
+.developed{
+	margin-top: 50px;
+	float: right;
+}
+
+.yandex_informer{
+	margin-top: 32px;
+	width: 40px;
+	height: 20px;
+	float: left;
+	margin-right: 50px;
+}
+.liveinternet_informer{
+	margin-top: 32px;
+	width: 40px;
+	height: 20px;
+	float: left;
+}
+
+.about_sherwood{
+	margin-top: 50px;
+	margin-right: 250px;
+	float: right;
+}
+.title{
+	padding-left: 30px;
+	margin-bottom: 30px;
+}
+
+.besides_main{
+	padding-left: 300px;
+}
+
+.title img{
+	float: left;
+	margin-top: 20px;
+}
+
+.left_vignette, .right_vignette{
+	float: left;
+	background: url(../images/header_left_vignette.png);
+	width: 51px;
+	height: 10px;
+	margin-top: 20px;
+}
+
+.right_vignette{
+	background: url(../images/header_right_vignette.png);
+}
+
+.title h1{
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	color: #b40004;
+	font-size: 40px;
+	font-family: Cuprum;
+}
+
+
+
+.h1_wrap{
+	text-align: center;
+}
+h1{
+	display: inline-block;
+	padding-left: 70px;
+	padding-right: 70px;
+	margin-bottom: 50px;
+	color: #b40004;
+	font: 40px Cuprum;
+	background: 
+	left url(../images/header_left_vignette.png) no-repeat,
+	right url(../images/header_right_vignette.png) no-repeat;	
+}
+
+
+/* Главная */
+
+#right h2 {
+	text-align: center;
+	color: #b40004;
+	font-size: 24px;	
+	height: 20px;	
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+.between_news12{
+	background: center url(../images/vig_news12.png) no-repeat;
+}
+.between_news23{
+	background: center url(../images/vig_news23.png) no-repeat;
+}
+
+
+p{
+	font-size: 16px;
+	color: black;
+	line-height: 1.3;
+}
+
+#left{
+	float: left;
+	width: 600px;
+}
+
+#right{
+	float: right;
+	width: 300px;
+}
+
+
+#right p{
+	/*margin-bottom: 30px;*/
+	font: 18px Cuprum;
+	text-align: justify;
+}
+
+
+.img_right{
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 5px;	
+	border: 5px solid #fdead2; 
+}
+.img_left{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 5px; 
+	border: 5px solid #fdead2; 
+}
+.img_center{
+	border: 5px solid #fdead2; 
+}
+
+
+
+/* ------------------ */
+
+
+
+
+/* Меню */
+.li_1{
+	float: left;
+}
+
+.li_1 > h3{
+	display: block;
+	margin-bottom: 5px;
+	font: 16px Tahoma;
+	background: #df5b04;
+	background: #77482a;
+	color: white;
+	text-align: center;
+	padding-bottom: 5px;
+	padding-top: 3px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 20px;
+}
+
+.li_1 > ul > li{
+	margin-bottom: 5px;
+}
+
+.li_1 > ul > li > a{
+	font-size: 16px;
+	text-decoration: none;
+	border-bottom: 1px dotted black;
+}
+
+.subsection_active:visited,
+.li_1 > ul > li > a:hover{
+	color: #df5b04;
+	text-decoration: none;
+	border-bottom: 1px dotted #fadf8e;
+}
+/* Убить подчёркивание! */
+
+
+.li_1_middle{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+
+
+
+.internal_menu{
+	display: block;
+}
+.internal_menu a{
+	color: black;
+}
+
+
+
+.menu_item_column{
+	display: inline-block;
+	width: 315px;
+	margin-right: 30px;
+	vertical-align: top;
+}
+
+.menu_item_column > h2{
+	font: 34px Cuprum;
+	color: #df5b04;
+	margin-top: 30px;
+	line-height: 0.9;
+}
+
+.subsection{
+	float: left;
+	margin-top: 50px;
+	margin-right: 30px;
+}
+.subsection > h3{
+	font: 34px Cuprum;
+	color: #b40004;
+	border-bottom: 1px dotted #b40004;
+} 
+
+
+
+.image_column{
+	float: left;
+	margin-top: 100px;
+	padding-top: 50px;
+	vertical-align: top;	
+}
+
+.image_column > p{
+	text-align: center;
+	font: 20px Cuprum;
+	color: #b40004;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.menu_image{
+	width: 200px;
+	height: 100px;
+	background: url(../images/main_menu/caesar_salad.png);
+	background-size: 200px;
+}
+
+.description{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.weight, .price{
+	font: 16px Cuprum;
+}
+
+.weight{
+	float: left;
+}
+.price{
+	float: right;
+}
+
+.offer{
+	margin-top: 100px;
+	/*width: 650px;*/
+	font-size: 12px;
+	color: #92683c;
+}
+
+
+/* Контакты */
+.left_contacts{
+	float: left;
+	width: 370px;
+	margin-right: 50px;
+}
+
+.address_info .left{
+	margin-right: 20px;
+}
+
+.address_info{
+	padding: 10px 10px 10px 10px;
+	background: #f4f4f3;
+	margin-bottom: 50px;
+	border: 1px solid #dadada; 
+}
+
+.address_info p{
+	float: left;
+}
+
+.address_info + p{
+	margin-bottom: 10px;
+}
+
+.address_info .left{
+	margin-right: 20px;
+}
+
+form, input{
+	display: block;
+	width: 100%;
+	border: 0;
+}
+
+
+textarea{
+	height: 100px;
+	border: 0;
+}
+
+input, textarea{
+	margin-bottom: 15px;
+	font: 16px Tahoma;
+	padding: 10px 10px 10px 10px;
+	width: 350px;
+	background: #f4f4f3;
+}
+
+input[type="text"], 
+textarea{
+	box-shadow: inset 0 1px 2px #979797;
+	color: #979797; 
+}
+
+input[type="image"]{
+	float: right;
+	width: 128px;
+	padding: 0;
+}
+
+
+
+#yandex_map{
+	float: left;
+	vertical-align: top;
+	height: 480px;
+	height: 400px;
+	width: 540px;
+	border: 1px solid #e3e4e4;	
+}
+
+
+
+
+/* Заказ столиков */
+
+.scheme_description{
+	text-align: center;
+}
+
+.scheme_cafe{
+	position: relative;
+	margin: 0 auto;
+	z-index: 10;
+	width: 700px;
+	height: 318px;
+	margin-bottom: 100px;
+	border-bottom: 20px solid white;
+	border-top: 20px solid white;
+	border-left: 20px solid white;
+	border-right: 20px solid white;	
+	box-shadow: 0 0px 10px #707171;
+}
+
+.scheme_lower_halls{
+	position: relative;
+	margin: 0 auto;
+	z-index: 10;
+	width: 700px;
+	border-bottom: 20px solid white;
+	border-top: 20px solid white;
+	border-left: 20px solid white;
+	border-right: 20px solid white;	
+	box-shadow: 0 0px 10px #707171;	
+}
+
+.scheme_lower_halls > .plan{
+	position: relative;
+	z-index: 11;
+	display: block;
+}
+.scheme_lower_halls > a{
+	text-align: center;
+	text-decoration: none;
+	color: #c6c6c6;
+	font: 15px Trebuchet;
+}
+.scheme_lower_halls > a:hover{
+	color: black;
+}
+.scheme_lower_halls > a > .vertical{
+	display: block;
+	margin-top: 15px;
+	vertical-align: middle;
+}
+.scheme_lower_halls > a > .horizontal{
+	display: block;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+.scheme_lower_halls > a > .big{
+	display: block;
+	margin-top: 40px;
+	vertical-align: middle;	
+}
+.scheme_lower_halls > a > .long{
+	display: block;
+	margin-top: 10px;
+	vertical-align: middle;	
+}
+.table15 > span{
+	display: block;
+	margin-top: 15px;
+}
+.table16 > span{
+	display: block;
+	margin-top: 10px;
+}
+.table17 > span{				
+	display: block;
+	margin-top: 10px;
+}
+// стол 19 
+.smoke_table > span{
+	display: block;
+	margin-top: 5px;
+}
+.cafe{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 206px; 
+	height: 200px; 
+	top: 59px;
+	left: 80px;
+}
+.table6{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 40px; 
+	height: 52px; 
+	top: 48px;
+	right: 48px;
+}
+.table7{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 50px; 
+	height: 35px;
+	top: 121px;
+	right: 26px;
+}
+.table8{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 50px; 
+	height: 35px;
+	top: 186px;
+	right: 26px;
+}
+.table9{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 51px; 
+	height: 35px;
+	top: 252px;
+	right: 25px;
+}
+.table10{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 39px; 
+	height: 50px;
+	top: 313px;
+	right: 49px;
+}
+.table1{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 50px; 
+	height: 40px;
+	top: 330px;
+	right: 145px;
+}
+.table2{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 51px; 
+	height: 39px;
+	top: 329px;
+	right: 254px;
+}
+.table3{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 50px; 
+	height: 39px;
+	top: 249px;
+	right: 254px;
+}
+.table4{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 51px; 
+	height: 39px;
+	top: 172px;
+	right: 254px;
+}
+.table5{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 51px; 
+	height: 39px;
+	top: 188px;
+	right: 145px;
+}
+
+.table18{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 58px; 
+	height: 100px;
+	top: 455px;
+	right: 393px;
+}
+.table14{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 64px; 
+	height: 37px;
+	top: 652px;
+	right: 330px;
+}
+.table13{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 64px; 
+	height: 37px;
+	top: 652px;
+	right: 438px;
+}
+.table12{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 64px; 
+	height: 37px;
+	top: 748px;
+	right: 438px;
+}
+.table11{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 64px; 
+	height: 37px;
+	top: 748px;
+	right: 330px;
+}
+.table15{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 55px; 
+	height: 53px;
+	top: 742px;
+	right: 603px;
+}
+
+.table16{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 25px; 
+	height: 34px;
+	top: 642px;
+	right: 633px;
+}
+.table17{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 32px; 
+	height: 40px;
+	top: 540px;
+	right: 647px;
+	//border: 1px dotted red;
+}
+.smoke_table{
+	display: block;
+	position: absolute; 
+	z-index: 12; 
+	width: 27px; 
+	height: 27px;
+	top: 432px;
+	right: 261px;
+}
+.table_hovered{
+	background: white;
+	opacity: 0.3;
+}
+
+
+
+/* Галерея */
+
+
+.preview{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	border: 5px solid #fdead2;
+}
+
+/* дработка */
+.preview > img{
+	display: block;
+}
+
+.preview:hover{
+	border: 5px solid #d8c7b2;
+}
+
+.internal_menu_gallery + p{
+	display: block;
+}
+
+.chosen{
+	text-decoration: none;
+}
+.chosen:visited{
+	color: #d8c7b2;
+}
+
+.internal_menu_gallery > li{
+	display: inline-block;
+	margin-right: 200px;
+}
+
+.internal_menu_gallery > li > a{
+	font-size: 16px;
+	text-decoration: none;
+	border-bottom: 1px dotted black;
+	color: black;
+}
+
+
+.chosen:visited,
+.internal_menu_gallery > li > a:hover{
+	color: #df5b04;
+	text-decoration: none;
+	border-bottom: 1px dotted #fadf8e;
+}
+
+
+
+
+/* Слайдер */
+
+.theme-default .nivoSlider {
+	position:relative;
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+
+}
+.theme-default .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-default .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.slider-wrapper { 
+	padding: 5px 5px 5px 5px;
+	margin-top: 30px;
+	border: 1px solid #e4e4e4;
+}
+
+
+
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width: none;
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+
+
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+	background:white;
+	filter:alpha(opacity=0);
+	opacity:0;
+}
+
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+	overflow:hidden;
+}
+.nivo-box img { display:block; }
