@@ -24,7 +24,7 @@ body{
 
 .header{
 	position: relative;
-	//width: 1340px;
+	width: 1340px;
 	z-index: 1;
 	margin: 0 auto;
 	margin-bottom: -500px;
@@ -106,7 +106,6 @@ body{
 
 
 .content_wrapper{
-	display: table-cell;
 	width: 1340px;
 	background:  
 	left url(../images/left_shadow.png) repeat-y,
